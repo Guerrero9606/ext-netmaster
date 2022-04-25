@@ -4,7 +4,7 @@ const callApi = async (url, options = {}) => {
         Accept: "application/json",
     };
 
-    const response = await fetch('http://localhost' + url);
+    const response = await fetch('http://localhost:8090' + url);
     const data = await response.json();
     return data;
 };

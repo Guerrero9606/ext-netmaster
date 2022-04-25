@@ -5,7 +5,7 @@ import { Container, Col, Button, Tab, Row, Table } from 'react-bootstrap';
 
 function Daily(){
 
-    var url = "http://localhost/downloadDiario.php?file=";
+    var url = "http://localhost:8090/downloadDiario.php?file=";
 
     const [ archivos, setArchivos ] = useState([]);
 

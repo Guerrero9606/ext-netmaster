@@ -5,7 +5,7 @@ import { Container, Col, Button, Tab, Row, Table } from 'react-bootstrap';
 
 function Week(){
 
-    var url = "http://localhost/downloadSemanal.php?file=";
+    var url = "http://localhost:8090/downloadSemanal.php?file=";
 
     const [ archivos, setArchivos ] = useState([]);
 
